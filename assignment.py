@@ -1,6 +1,6 @@
 import math
 
-r = input("What is the radius?")
+r = input("What is the radius? ")
 
 if r.isnumeric() ==  False:
     print("This is not a positive number.")
@@ -10,6 +10,6 @@ else:
     r = float(r)
     a = math.pi * math.sqrt(r)
     c = 2 * math.pi * r
-    print("The radius was: ", r, "units/n")
-    print("The area is: ", a, "square units/n")
-    print("The circumference is: ", c, "units/n")
+    print("The radius was: ", r, "units")
+    print("The area is: ", a, "square units")
+    print("The circumference is: ", c, "units")
